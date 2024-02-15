@@ -51,7 +51,7 @@ function App() {
               <Stack spacing={1}>
                 <Typography variant="subtitle2">{el.name}</Typography>
                 <Typography variant="caption">
-                  Some Description about repo
+                  {el.description?el.description:"Some Description about repo"}
                 </Typography>
                 <Stack
                   direction="row"
